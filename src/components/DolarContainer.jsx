@@ -48,7 +48,8 @@ function DolarContainer() {
                     className="bg-secondary rounded-md p-2"
                 />
                 <br />
-                <div className="mt-10 p-10  bg-secondary rounded-md ">
+                <p className="text-3xl text-white mt-3.5 text-center">Pesos</p>
+                <div className="mt-5 p-10  bg-secondary rounded-md ">
                     {dolarValues.map((dolar) => (
                         <Dolar dolar={dolar} dolarInput={dolarInput} />
                     ))}
